@@ -23,7 +23,7 @@
   <h3>Registro de Libros</h3>
     
   <div class="book-list">
-    <p >Libros Registrados</p>
+    <p >Libros Registrados:</p>
     <div class="table">
     <table id="Table">
       <tr>
