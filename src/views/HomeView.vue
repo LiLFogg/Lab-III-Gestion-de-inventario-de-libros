@@ -1,20 +1,21 @@
 <template>
   
   <div class="home">
-    <HelloWorld title="Gestion de Libros"/>
+    <BooksRegist title="Gestion de Libros"/>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+import BooksRegist from '@/components/BooksRegist.vue'
 
 export default {
   name: 'HomeView',
   components: {
-    HelloWorld
+    BooksRegist
   }
 }
+
 </script>
 
 <style scoped>
