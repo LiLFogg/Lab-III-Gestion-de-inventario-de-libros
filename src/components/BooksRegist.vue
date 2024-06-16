@@ -65,7 +65,8 @@
         if (
           this.name.trim() == "" ||
           this.author.trim() == "" ||
-          this.year.trim() == ""
+          this.year.trim() == ""  ||
+          isNaN(this.year)
         ) {
           this.errorMessage = "Por favor complete todos los campos";
           
